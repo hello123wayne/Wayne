@@ -18,6 +18,13 @@ class MainActivity : AppCompatActivity() {
         txv.text = "Master分支"
     }
 
+        TestDEV()
     }
+    fun TestDEV(){
+        var txv:TextView = findViewById<TextView>(R.id.txv)
+        txv.text = "Dev分支"
+    }
+
+}
 
 
